@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your RESCUE guest account</title>
+<meta name="description" content="How to delete your RESCUE guest account and data, in the app or by email.">
+<!--
+  Account-deletion page for Google Play (Data safety > "Delete account URL").
+  Self-contained: no scripts, no external requests. Drop it into the website repo as /delete-account (or
+  /delete-account.html, then use that URL in Play Console).
+-->
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1b16; --muted:#5d594f; --card:#fff; --line:#e4e0d6; --accent:#8a6a1f; --warn:#8a1f1f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16140f; --fg:#f1eee6; --muted:#a9a496; --card:#1f1c15; --line:#37332a; --accent:#d9b660; --warn:#ef8a8a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .5rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  p, li { color: var(--fg); }
+  .lead { color: var(--muted); margin-top: 0; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; margin: 1rem 0; }
+  ol, ul { padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  .warn { color: var(--warn); font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; width: 34%; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delete your RESCUE guest account</h1>
+  <p class="lead">For guests who book rooms, tables, events or order food through the RESCUE app. Deleting your account removes your sign-in and your personal details from our systems. <span class="warn">This cannot be undone.</span></p>
+
+  <h2>Option 1 &mdash; in the app (fastest)</h2>
+  <div class="card">
+    <ol>
+      <li>Open RESCUE and sign in with Google if you are not already.</li>
+      <li>Tap the <strong>More</strong> menu (top right) and choose <strong>Delete my account</strong>.</li>
+      <li>Read the summary, tick the confirmation box and tap <strong>Permanently delete</strong>.</li>
+      <li>Confirm with Google when asked. Your account is deleted straight away and the app signs you out.</li>
+    </ol>
+    <p>If you have a confirmed, paid or in-progress booking or order, the app lists it and asks you to finish or cancel it first (normal cancellation rules of that lodge or restaurant apply). Unpaid requests that are still open are cancelled for you.</p>
+  </div>
+
+  <h2>Option 2 &mdash; by email (no app needed)</h2>
+  <div class="card">
+    <p>Email <a href="mailto:support@rescueapps.com?subject=Delete%20my%20RESCUE%20account">support@rescueapps.com</a> <strong>from the Google email address you used to sign in</strong>, with the subject <em>Delete my RESCUE account</em>. We check that the request comes from that address, then delete the account and reply to confirm, within <strong>30 days</strong> (usually much sooner). If we cannot delete it yet because of an active booking, we tell you which one.</p>
+  </div>
+
+  <h2>What happens to your data</h2>
+  <table>
+    <tr><th>Deleted</th><td>Your sign-in (Google account link, email, display name and photo held by our authentication service); your notification (push) tokens; your request-limit counters.</td></tr>
+    <tr><th>Cancelled</th><td>Open requests that you have not paid for: pending room or event requests, quote requests, unpaid table bookings and unpaid orders.</td></tr>
+    <tr><th>Anonymised and kept by the lodge</th><td>Booking and order records the lodge needs for its accounts and history (dates, items, amounts and status). Your name, phone number, email, notes, special requests and payment references are removed and replaced with &ldquo;Deleted guest&rdquo;, and the record is no longer linked to you.</td></tr>
+    <tr><th>Kept</th><td>If a lodge blocked you, or you were flagged for abuse, we keep that record against your anonymous internal ID only (no name, phone or email), so that deleting an account cannot be used to avoid a block. A short deletion log (internal ID, date, counts &mdash; no personal details) is also kept as proof the deletion happened.</td></tr>
+  </table>
+  <p>Some free-text lines in a lodge's own staff activity log may still mention a name typed by staff. Ask us in your email and we will have it removed.</p>
+  <p>Your device keeps nothing after deletion: the app clears its saved drafts, baskets and caches.</p>
+
+  <h2>Questions</h2>
+  <p>Write to <a href="mailto:support@rescueapps.com">support@rescueapps.com</a>.</p>
+
+  <footer>RESCUE is operated by RescueApps. &middot; <a href="privacy-policy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
