@@ -1,0 +1,42 @@
+/* Guests, Pricing, FAQ, Contact, Terms (loads after home.css + biz.css) */
+.g-steps{background:var(--sand);padding:52px 0}
+.g-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:14px}
+.g-list li{display:flex;gap:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
+.g-list span{flex:none;width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--amber);font-weight:800;display:grid;place-items:center;font-family:Georgia,serif;font-size:18px}
+.g-list p{color:var(--soft);margin:0}
+.p-plans,.f-wrap,.c-wrap{padding:52px 0}
+.p-cards,.c-cards{display:grid;gap:16px}
+.p-card,.c-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px}
+.p-card.pro{border:2px solid var(--amber);box-shadow:0 12px 30px rgba(20,35,59,.08)}
+.p-card h2,.c-card h2{margin:4px 0 8px}
+.p-price{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-size:34px;font-weight:700;color:var(--navy);margin:0 0 8px!important}
+.p-price span{font-family:system-ui,sans-serif;font-size:15px;font-weight:500;color:var(--soft)}
+.p-card ul{padding-left:18px;margin:12px 0 20px}.p-card li{margin:6px 0}
+.p-h{margin-top:48px!important}
+.p-tablewrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:14px}
+.p-table{width:100%;border-collapse:collapse;font-size:15px}
+.p-table th,.p-table td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:center}
+.p-table th[scope=row],.p-table thead th:first-child{text-align:left;font-weight:500}
+.p-table thead th{background:var(--navy);color:#fff;font-weight:700}
+.p-table tr:last-child>*{border-bottom:0}
+.yes{color:var(--teal);font-weight:800;font-size:18px}.no{color:#9AA2AD}
+.f-cols{display:grid;gap:32px}
+.f-cols h2{font-size:26px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:600;color:var(--navy)}
+.faq details p{margin:10px 0 0;color:var(--soft)}
+.c-card p{color:var(--soft)}
+.c-list{margin:24px 0 0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:4px 20px}
+.c-list div{padding:14px 0;border-bottom:1px solid var(--line)}.c-list div:last-child{border:0}
+.c-list dt{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.c-list dd{margin:4px 0 0;font-size:17px}
+/* legacy page bits (Terms, 404) in the new system */
+.hero{background:var(--navy)!important}.hero h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.prose{padding-top:32px!important;padding-bottom:40px!important}
+@media(min-width:760px){.p-cards,.c-cards{grid-template-columns:1fr 1fr}.f-cols{grid-template-columns:1fr 1fr}.g-list{grid-template-columns:1fr 1fr}.p-plans,.f-wrap,.c-wrap,.g-steps{padding:72px 0}}
+@media(max-width:759px){.c-hero{padding:32px 0 36px!important}.c-hero .x-eyebrow{margin-bottom:10px!important}.c-hero h1{margin-bottom:12px}.c-hero .x-lead{margin-bottom:0!important}.c-wrap{padding-top:28px}}
+.p-alt{font-size:13.5px;color:var(--amberText);font-weight:600;margin:0 0 10px!important}
+.p-regions{display:grid;gap:16px;margin-top:20px}
+.p-region{background:var(--tealbg);border-radius:14px;padding:20px}
+.p-region h3{font-size:19px}.p-region p{color:var(--ink)}
+@media(min-width:760px){.p-regions{grid-template-columns:1fr 1fr}}
