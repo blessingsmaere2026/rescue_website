@@ -44,3 +44,5 @@ h3{margin:8px 0 4px;font-size:17px}
 .prose{max-width:760px}
 .foot{margin-top:40px;background:#fff;border-top:1px solid var(--border);padding:20px 0;font-size:15px;color:var(--muted)}
 main section.wrap .btn.alt,.panel .btn.alt{background:var(--dark);color:#fff}
+.gp{display:inline-block;line-height:0}.gp img{display:block;width:162px;max-width:100%;height:auto}
+.foot-legal{font-size:13px}
