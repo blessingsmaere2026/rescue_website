@@ -46,3 +46,6 @@ h3{margin:8px 0 4px;font-size:17px}
 main section.wrap .btn.alt,.panel .btn.alt{background:var(--dark);color:#fff}
 .gp{display:inline-block;line-height:0}.gp img{display:block;width:162px;max-width:100%;height:auto}
 .foot-legal{font-size:13px}
+a.wa{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#14233B;border:1.5px solid #14233B;border-radius:8px;padding:9px 16px;min-height:46px;font-size:16px;font-weight:700;line-height:1.2;text-decoration:none}
+a.wa img{display:block;flex:none;width:24px;height:24px}
+a.wa:hover{background:#F1EADC}a.wa:focus-visible{outline:3px solid #D99A2E;outline-offset:2px}
